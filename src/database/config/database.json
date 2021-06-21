@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "poratZadar",
+    "password": "Porat2021Zadar!",
+    "database": "PoratZadarDb",
+    "host": "ec2-18-168-205-4.eu-west-2.compute.amazonaws.com",
+    "dialect": "mariadb"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
