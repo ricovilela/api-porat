@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
-    "build": "tsc && copyfiles -u 1 src/views/* dist && copyfiles -u 1 src/views/partials/* dist && copyfiles -u 1 src/database/config/* dist",
+    "build": "tsc && copyfiles -u 1 src/database/config/* dist",
     "start": "node dist/server.js"
   },
   "lint-staged": {
